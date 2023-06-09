@@ -4,3 +4,20 @@
 //
 
 import Foundation
+
+class AllocationTracker {
+
+    public static private(set) var allocationCount = 0
+
+    init() {
+        Self.allocationCount += 1
+    }
+
+    deinit {
+        Self.allocationCount -= 1
+    }
+
+    public func add(a: Int, b: Int) -> Int {
+        a + b
+    }
+}
