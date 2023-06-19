@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3DDD562A409F7300FA3C8F /* MathService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DDD552A409F7300FA3C8F /* MathService.swift */; };
+		3A3DDD592A40A07A00FA3C8F /* SlowMathWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DDD582A40A07A00FA3C8F /* SlowMathWebService.swift */; };
 		3AEE5FC62A3377990018C92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE5FC52A3377990018C92E /* AppDelegate.swift */; };
 		3AEE5FC82A3377990018C92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE5FC72A3377990018C92E /* SceneDelegate.swift */; };
 		3AEE5FCA2A3377990018C92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE5FC92A3377990018C92E /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3DDD552A409F7300FA3C8F /* MathService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathService.swift; sourceTree = "<group>"; };
+		3A3DDD582A40A07A00FA3C8F /* SlowMathWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowMathWebService.swift; sourceTree = "<group>"; };
 		3AEE5FC22A3377990018C92E /* TestingTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEE5FC52A3377990018C92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AEE5FC72A3377990018C92E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A3DDD542A409F6200FA3C8F /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DDD552A409F7300FA3C8F /* MathService.swift */,
+				3A3DDD582A40A07A00FA3C8F /* SlowMathWebService.swift */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		3A3DDD572A40A05A00FA3C8F /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
 		3AEE5FB92A3377990018C92E = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +102,7 @@
 		3AEE5FC42A3377990018C92E /* TestingTips */ = {
 			isa = PBXGroup;
 			children = (
+				3A3DDD542A409F6200FA3C8F /* Week2 */,
 				3AEE5FF52A3378350018C92E /* Week1 */,
 				3AEE5FC52A3377990018C92E /* AppDelegate.swift */,
 				3AEE5FC72A3377990018C92E /* SceneDelegate.swift */,
@@ -97,6 +118,7 @@
 		3AEE5FDB2A33779B0018C92E /* TestingTipsTests */ = {
 			isa = PBXGroup;
 			children = (
+				3A3DDD572A40A05A00FA3C8F /* Week2 */,
 				3AEE5FF82A3379590018C92E /* Week1 */,
 			);
 			path = TestingTipsTests;
@@ -221,6 +243,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3DDD562A409F7300FA3C8F /* MathService.swift in Sources */,
+				3A3DDD592A40A07A00FA3C8F /* SlowMathWebService.swift in Sources */,
 				3AEE5FF72A3378510018C92E /* AllocationTracker.swift in Sources */,
 				3AEE5FCA2A3377990018C92E /* ViewController.swift in Sources */,
 				3AEE5FC62A3377990018C92E /* AppDelegate.swift in Sources */,
